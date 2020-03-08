@@ -1,15 +1,16 @@
-<div align="right">
 
-  <div>
+<div align="right">
+  <div align="center"><h1>SDP Log Analytics</h1></div>
+    <div>
     <mat-form-field color="accent">
-      <mat-label>start calendar </mat-label>
+      <mat-label>start date </mat-label>
       <input matInput [matDatepicker]="picker1" [formControl]="date" >
       <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
       <mat-datepicker #picker1></mat-datepicker>
     </mat-form-field>
 
     <mat-form-field color="accent">
-      <mat-label>emd calendar </mat-label>
+      <mat-label>emd date </mat-label>
       <input matInput [matDatepicker]="picker2" [formControl]="date" >
       <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
       <mat-datepicker #picker2 color="primary"></mat-datepicker>
